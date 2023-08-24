@@ -1,8 +1,10 @@
 import json
 
+
 def main():
     # encoding.json dosyasını yükle
-    with open("C:\\Users\\y.cetinkaya\\Desktop\\Deneme_Projeler\\Encoding\\train.json", "r", encoding="utf-8-sig") as f:
+    with open("C:\\Users\\y.cetinkaya\\Desktop\\Deneme_Projeler\\Encoding\\encoding.json", "r",
+              encoding="utf-8-sig") as f:
         encoding_data = json.load(f)
     while True:
         # Cümlenizi alın
